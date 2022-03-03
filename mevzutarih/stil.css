@@ -1,0 +1,306 @@
+.ana {
+  width: 1030px;
+  height: auto;
+  background-color: #e3e3e3;
+  margin: auto;
+}
+body {
+  background-color:#5c6168;
+}
+
+/* Menü banner*/
+header {
+  width: 100%;
+  height: 160px;
+  background-image: url(resimler/History-banner.webp);
+}
+.banner {
+  text-align: center;
+}
+nav {
+  width: 1030px;
+  height: 40px;
+  background-color: #3c3f45;
+}
+.menusol {
+  width: 600px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.menusol ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.menusol li {
+  float: left;
+}
+.menusol ul li a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  height: 22px;
+  line-height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-right: 1px solid gray;
+}
+.menusol ul li a:hover {
+  background-color: #35373b;
+}
+.menusag {
+  width: 430px;
+  height: 40px;
+  float: right;
+}
+.menusag-kutu {
+  width: 430px;
+  height: 38px;
+  line-height: 40px;
+}
+.menusag-kutu form {
+  padding-left: 145px;
+  font-size: 17px;
+  color: white;
+}
+.menusag-kutu button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #3c3f45;
+}
+.menusag-kutu button img {
+  position: relative;
+  top: 6px;
+}
+
+/*İçerikler kısmı*/
+.icerik-tam {
+  width: 1030px;
+  height: 1600px;
+  box-sizing: border-box;
+}
+.icerik-bosluk {
+  margin-top: 10px;
+}
+.icerik {
+  width: 750px;
+  height: auto;
+  padding-left: 6px;
+  float: left;
+}
+.icerik-govde {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*Büyük içerik*/
+.tam-kutu {
+  width: 750px;
+  height: 500px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.baslik {
+  width: 100%;
+  height: 40px;
+  background-color: #145a9c;
+}
+.baslik-ort {
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.baslik a {
+  font-size: 18px;
+  font-weight: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+}
+.paragraf {
+  width: 510px;
+  height: auto;
+  padding: 10px;
+  margin-right: 7px;
+  float: right;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resim {
+  width: 169px;
+  height: 169px;
+  border: 2px solid black;
+  float: left;
+  margin-top: 30px;
+  margin-left: 28px;
+  box-sizing: border-box;
+}
+.resim img {
+  width: 165px;
+  height: 165px;
+  margin: 0px;
+  padding: 0;
+}
+.etiket {
+  width: 100%;
+  height: 40px;
+  background-color: #f8f8f8;
+  float: left;
+  text-align: center;
+}
+.etiket-ici {
+  padding: 10px;
+}
+.e1 {
+  padding-right: 30px;
+}
+.etiket-ici img {
+  padding-right: 5px;
+}
+
+/* Sag katagoriler*/
+.sag-bayrak-divi {
+  width: 260px;
+  height: 160px;
+  text-align: center;
+  float: right;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.sag-bayrak-baslik {
+  color: white;
+  background-color: #145a9c;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sag-bayrak {
+  width: 100%;
+  height: 80px;
+}
+.sag-bayrak img {
+  width: 260px;
+  height: 120px;
+}
+.sag-katagori {
+  width: 260px;
+  height: auto;
+  float: right;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.sag-katagori-baslik {
+  color: white;
+  background-color: #145a9c;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+.katagoriler {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.katagoriler a {
+  display: block;
+  background-color: white;
+  color: black;
+  height: 37px;
+  line-height: 37px;
+  padding: 8px;
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+}
+.katagoriler a:hover {
+  color: white;
+  background-color: #145a9c;
+}
+/*Konular 2li 2li*/
+.konu-sutun-divi {
+  width: 360px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.konu-sutun-baslik {
+  color: white;
+  background-color: #145a9c;
+  height: 38px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 1px;
+  padding-left: 10px;
+  text-align: center;
+}
+.konu-sutun-resim {
+  height: 80px;
+}
+.konu-sutun-resim img {
+  width: 360px;
+}
+.konu-sutun-icerik {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.konu-sutun-icerik a {
+  display: block;
+  background-color: white;
+  color: black;
+  height: 32px;
+  line-height: 37px;
+  padding: 8px;
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+}
+
+/*Footer */
+footer {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: ivory;
+}
+
+/*Discord deneme*/
+.deneme {
+  float: right;
+  margin-right: 5px;
+}
+/* İletisim*/
+.iletisimdivi{
+  width: 100%;
+  height: 500px;
+  padding-top: 20px;
+  }
+  .iletisimform{
+    width: 80%;
+    height: 470px;
+    margin: auto;
+    color: black;
+}
+.form{
+  margin: auto;
+  margin-top: 100px;
+  font-size: 20px;
+}
+.iletisim{
+    background-color: #333333;
+}
